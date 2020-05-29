@@ -24,6 +24,7 @@ api.add_resource(StoreList, '/stores')
 api.add_resource(Item, '/item/<string:name>')
 api.add_resource(ItemList, '/items')
 api.add_resource(UserRegister, '/register')
+api.add_resource(Item, '/hello')
 
 if __name__ == '__main__':
     from db import db
